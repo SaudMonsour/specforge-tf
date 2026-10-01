@@ -1,0 +1,8 @@
+{
+  "vocabulary": 256,
+  "context": 96,
+  "width": 96,
+  "heads": 4,
+  "layers": 3,
+  "hidden": 192
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "specforge-tf"
+version = "0.1.0"
+description = "A small speculative decoding engine with explicit verification and KV rollback"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+dependencies = ["numpy==2.5.3"]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow-cpu==2.20.0"]
+study = ["tensorflow-cpu==2.20.0", "matplotlib==3.10.6"]
+
+[tool.setuptools.packages.find]
+include = ["specforge*"]

@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+data/source.txt
+data/body.bin
+results.partial.json

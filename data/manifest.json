@@ -1,0 +1,23 @@
+{
+  "dataset": "Alice's Adventures in Wonderland",
+  "author": "Lewis Carroll",
+  "source": "https://www.gutenberg.org/ebooks/11",
+  "download_url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+  "fetched_at_utc": "2026-10-01T13:46:36.060468+00:00",
+  "last_modified": "Thu, 01 Oct 2026 07:31:55 GMT",
+  "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "body_sha256": "b44b499274ef98e0bc12c190ee08d9c63480b7c96946101a540a0cb24b3a944c",
+  "source_bytes": 174311,
+  "body_bytes": 151095,
+  "vocabulary": 256,
+  "tokenization": "UTF-8 bytes, IDs 0..255; no fitted vocabulary or unknown tokens",
+  "split_offsets_bytes": [
+    0,
+    120876,
+    135985,
+    151095
+  ],
+  "transformation": "Decode UTF-8 BOM if present; CRLF to LF; keep text between exact Gutenberg markers; strip outer whitespace; append one LF; encode UTF-8.",
+  "license": "Project Gutenberg identifies this book as public domain in the USA; source referenced, corpus not redistributed.",
+  "split_note": "Contiguous 80/10/10 byte splits. No input/target window crosses a split; recurring phrases are not deduplicated."
+}

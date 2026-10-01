@@ -1,0 +1,76 @@
+{
+  "started_at_utc": "2026-10-01T13:58:53.118012+00:00",
+  "completed_at_utc": "2026-10-01T14:02:18.176971+00:00",
+  "seed": 42,
+  "steps": 1000,
+  "batch": 16,
+  "context": 96,
+  "sampled_byte_targets_per_model": 1536000,
+  "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "body_sha256": "b44b499274ef98e0bc12c190ee08d9c63480b7c96946101a540a0cb24b3a944c",
+  "models": {
+    "draft": {
+      "parameters": 40224,
+      "selected_step": 1000,
+      "validation": {
+        "nll_nats_per_byte": 2.0500812484959887,
+        "bits_per_byte": 2.9576420506246177,
+        "perplexity": 7.768532262228535,
+        "next_byte_accuracy": 0.4196523354564755,
+        "windows": 157,
+        "evaluated_bytes": 15072,
+        "window_nll_sd": 0.2833839194486549
+      },
+      "training_seconds_including_validation_and_saving": 45.042293554000025,
+      "test": {
+        "nll_nats_per_byte": 2.0503786551724574,
+        "bits_per_byte": 2.9580711177618864,
+        "perplexity": 7.770843019189927,
+        "next_byte_accuracy": 0.41951963906581746,
+        "windows": 157,
+        "evaluated_bytes": 15072,
+        "window_nll_sd": 0.2246960543579277
+      }
+    },
+    "target": {
+      "parameters": 311616,
+      "selected_step": 1000,
+      "validation": {
+        "nll_nats_per_byte": 1.6164100690252463,
+        "bits_per_byte": 2.33198679062571,
+        "perplexity": 5.034982593303607,
+        "next_byte_accuracy": 0.5383492569002124,
+        "windows": 157,
+        "evaluated_bytes": 15072,
+        "window_nll_sd": 0.3621358395913068
+      },
+      "training_seconds_including_validation_and_saving": 144.5830719799999,
+      "test": {
+        "nll_nats_per_byte": 1.6425887456365451,
+        "bits_per_byte": 2.3697546375498666,
+        "perplexity": 5.168532223682973,
+        "next_byte_accuracy": 0.5250132696390659,
+        "windows": 157,
+        "evaluated_bytes": 15072,
+        "window_nll_sd": 0.24180237807739116
+      }
+    }
+  },
+  "unigram": {
+    "test_nll": 3.2425254772617143,
+    "test_perplexity": 25.59828807711305
+  },
+  "selection": "Independent best validation NLL checkpoints; draft/target roles fixed before evaluation. No test-driven size/seed/block selection.",
+  "controls": "Identical sampled windows/order, seed, optimizer, learning rate and steps; widths/layers/parameter counts differ. No distillation or pretrained weights.",
+  "runtime": {
+    "python": "3.12.14",
+    "tensorflow": "2.20.0",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "intra_threads": 2,
+    "inter_threads": 2,
+    "oneDNN": false,
+    "devices": [
+      "PhysicalDevice(name='/physical_device:CPU:0', device_type='CPU')"
+    ]
+  }
+}

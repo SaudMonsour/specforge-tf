@@ -1,0 +1,37 @@
+[
+  {
+    "window": 92,
+    "body_byte_offset": 144817,
+    "nll": 2.201573133468628,
+    "input_hex": "2068696d206b6e6f7720736865206c696b6564207468656d20626573742c0a20202020466f722074686973206d75737420657665722062650a41207365637265742c206b6570742066726f6d20616c6c2074686520726573742c0a2020202042",
+    "decoded_preview": " him know she liked them best,\n    For this must ever be\nA secret, kept from all the rest,\n    B"
+  },
+  {
+    "window": 90,
+    "body_byte_offset": 144625,
+    "nll": 2.1952669620513916,
+    "input_hex": "727573747320746f20796f7520746f20736574207468656d20667265652c0a2020202045786163746c7920617320776520776572652e0a0a4d79206e6f74696f6e20776173207468617420796f7520686164206265656e0a2020202028426566",
+    "decoded_preview": "rusts to you to set them free,\n    Exactly as we were.\n\nMy notion was that you had been\n    (Bef"
+  },
+  {
+    "window": 59,
+    "body_byte_offset": 141649,
+    "nll": 2.1671993732452393,
+    "input_hex": "66726f6d2068697320626f6f6b2c20e2809c52756c650a466f7274792d74776f2e205f416c6c20706572736f6e73206d6f7265207468616e2061206d696c65206869676820746f206c656176652074686520636f7572745f2ee2809d0a0a4576",
+    "decoded_preview": "from his book, \u201cRule\nForty-two. _All persons more than a mile high to leave the court_.\u201d\n\nEv"
+  },
+  {
+    "window": 39,
+    "body_byte_offset": 139729,
+    "nll": 2.1044554710388184,
+    "input_hex": "20766f6963652c20e2809c756e74696c0a616c6c20746865206a7572796d656e20617265206261636b20696e2074686569722070726f70657220706c61636573e280945f616c6c5f2ce2809d2068652072657065617465640a77697468206772",
+    "decoded_preview": " voice, \u201cuntil\nall the jurymen are back in their proper places\u2014_all_,\u201d he repeated\nwith gr"
+  },
+  {
+    "window": 91,
+    "body_byte_offset": 144721,
+    "nll": 2.102648973464966,
+    "input_hex": "6f72652073686520686164207468697320666974290a416e206f62737461636c6520746861742063616d65206265747765656e0a2020202048696d2c20616e64206f757273656c7665732c20616e642069742e0a0a446f6ee2809974206c6574",
+    "decoded_preview": "ore she had this fit)\nAn obstacle that came between\n    Him, and ourselves, and it.\n\nDon\u2019t let"
+  }
+]

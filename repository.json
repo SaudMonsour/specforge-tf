@@ -1,0 +1,12 @@
+{
+  "name": "specforge-tf",
+  "title": "SpecForge",
+  "description": "TensorFlow speculative decoding from scratch: trained draft and target byte models, corrected sampling, cache rollback, and CPU benchmarks.",
+  "topics": ["ai-engineering", "llm-engineering", "speculative-decoding", "tensorflow", "transformer", "kv-cache", "inference", "optimization", "language-model", "benchmark"],
+  "owner": "SaudMonsour",
+  "study_date": "2026-10-01",
+  "attribution": "Implementation, training execution, evaluation and documentation were developed with an AI assistant. All published metrics come from the included executed study; human review is not claimed.",
+  "algorithm_source": "https://proceedings.mlr.press/v202/leviathan23a.html",
+  "corpus_source": "https://www.gutenberg.org/ebooks/11",
+  "corpus_redistributed": false
+}
